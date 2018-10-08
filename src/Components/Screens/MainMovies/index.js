@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {TouchableOpacity, TouchableNativeFeedback,Alert, Dimensions, Image, ScrollView ,FlatList, Modal, ActivityIndicator, Platform, StyleSheet, Text, View} from 'react-native';
 import styles from './styles'
-import { responsiveHeight, responsiveWidth, responsiveFontSize } from 'react-native-responsive-dimensions';
 import {Footer,FooterTab, Container, Header, Left, Body, Right, Button, Icon, Title } from 'native-base';
 import * as Img from '../../../API/Helper/'
 import {connect} from 'react-redux'
